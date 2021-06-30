@@ -1,0 +1,6 @@
+com/qa/pages/FlipkartPages.class
+Flipkart/FlipkartProject/ServiceTest.class
+com/qa/testScripts/FlipKartAddingtoCart.class
+com/qa/testScripts/TestBase.class
+com/qa/utility/Reporting.class
+com/qa/utility/ExcelUtility.class

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[product succesfully added]]>
+    </line>
+    <line>
+      <![CDATA[product succesfully added]]>
+    </line>
+    <line>
+      <![CDATA[product succesfully added]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-06-22T11:00:42Z" name="Suite" finished-at="2021-06-22T11:01:59Z" duration-ms="77579">
+    <groups>
+    </groups>
+    <test started-at="2021-06-22T11:00:42Z" name="Test1" finished-at="2021-06-22T11:01:59Z" duration-ms="77579">
+      <class name="com.qa.testScripts.FlipKartAddingtoCart">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testScripts.FlipKartAddingtoCart@49dc7102]" started-at="2021-06-22T11:00:42Z" name="setUp" finished-at="2021-06-22T11:00:53Z" duration-ms="10844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.flipkart.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cart(java.lang.String)[pri:0, instance:com.qa.testScripts.FlipKartAddingtoCart@49dc7102]" started-at="2021-06-22T11:00:55Z" name="cart" data-provider="getData" finished-at="2021-06-22T11:01:16Z" duration-ms="21701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Iphone 12 pro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[product succesfully added]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cart -->
+        <test-method signature="cart(java.lang.String)[pri:0, instance:com.qa.testScripts.FlipKartAddingtoCart@49dc7102]" started-at="2021-06-22T11:01:17Z" name="cart" data-provider="getData" finished-at="2021-06-22T11:01:38Z" duration-ms="21381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[macbook air]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[product succesfully added]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cart -->
+        <test-method signature="cart(java.lang.String)[pri:0, instance:com.qa.testScripts.FlipKartAddingtoCart@49dc7102]" started-at="2021-06-22T11:01:38Z" name="cart" data-provider="getData" finished-at="2021-06-22T11:01:59Z" duration-ms="21034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[motorola razr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[product succesfully added]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testScripts.FlipKartAddingtoCart@49dc7102]" started-at="2021-06-22T11:01:59Z" name="tearDown" finished-at="2021-06-22T11:01:59Z" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testScripts.FlipKartAddingtoCart -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
